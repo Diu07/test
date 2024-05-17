@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <form action="/text/url">
+            用户名:<input type="text" name="username"><br>
+            密码:<input type="password" name="password"><br>
+            性别:<input type="radio">男;<input type="radio">女;<br>
+            年龄:<input type="number" name="age"><br>
+            出生日期:<input type="date" name="date"><br>
+
+            个人介绍:<br>
+            <textarea cols="50" rows="5" placeholder="请输入不少于50个字的个人介绍..."></textarea><br>
+
+            爱好:
+            <input type="check box" name="hobby"> 打球
+            <input type="check box" name="hobby"> java
+            <input type="check box" name="hobby"> c++
+            <input type="check box" name="hobby"> c#<br>
+            <input type="submit" value="注册"><br>
+
+            <fleldset>
+                <legend>Personalia:</legend>
+                Name:<input type="text"><br>
+                Email:<input type="text"><br>
+                Date of birth:<input type="text">
+
+                喜欢编程的类型
+                <select name="编程类型">
+                    <option value="1">php</option>
+                    <option value="2">go</option>
+                    <option value="3">c</option>
+                    <optgroup label="研究方向">
+                        <option>全栈开发</option>
+                        <option>前端开发</option>
+                        <option>后端开发</option>
+			<option>数据分析</option>
+			<option>数据挖掘</option>
+			<option>修复bug</option>
+			<option>c++100%</option>
+                    </optgroup>
+                </select>
+            </fleldset>
+        </form>
+    </div>
+</body>
